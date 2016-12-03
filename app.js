@@ -5,7 +5,10 @@ const monument = require('monument')
     , http2 = require('http2')
     , fs = require('fs');
 
+
+require('dotenv').config();
 require('./data/team');
+
 
 monument.server({
     routePath: './routes'

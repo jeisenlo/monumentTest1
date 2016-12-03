@@ -66,8 +66,7 @@ events.on('route:/api/v1/team:post', (connection) => {
 
 events.on('route:/api/v1/team/:teamid:get', (connection) => {
 
-    console.log('connection.params: ', connection.params);
-    // TODO: Validate teamid 
+    //console.log('connection.params: ', connection.params);
 
     db.collection(TEAMS_COLLECTION).findOne({ _id: new mongodb.ObjectID(connection.params.teamid) }, function(err, doc) {
         if (err) {

@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "dot": "~1.0.3",
+    "dotenv": "^2.0.0",
     "http2": "^3.3.6",
     "mongodb": "^2.2.12",
     "monument": "~2.5.0",
