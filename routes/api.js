@@ -2,7 +2,7 @@
 const events = require('monument').events
     , parser = require('monument').parser
     , mongodb = require('mongodb')
-    , MONGODB_URI = 'mongodb://db_user:Admin0215!@ds163417.mlab.com:63417/monument'
+    , MONGODB_URI = 'mongodb://' + process.env.MONGODB_USER_DEV + ':' + process.env.MONGODB_PASS_DEV + '@' + process.env.MONGODB_URL_DEV + '/monument'
     , util = require('util')
     , TEAMS_COLLECTION = 'teams';
 
