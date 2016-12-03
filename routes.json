@@ -1,0 +1,6 @@
+{
+	"/api/v1/team": [ "get", "post" ],
+    "/api/v1/team/:teamid": [ "get", "put", "delete" ],
+    "/api/v1/team/:teamid/rider": [ "get", "post" ],
+    "/api/v1/team/:teamid/rider/:riderid": [ "get", "put", "delete" ]
+}
